@@ -59,7 +59,7 @@ header {
     height: 85vh;
     
     /* OPTION 1: Pure Image (No Grey Overlay) */
-    background: url('shop-bg.jpg');
+    background: url('Shop-bg.jpg');
 
     /* OPTION 2: If the text is hard to read, use this line instead (adds a light shadow): 
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('shop-bg.jpg'); 
@@ -301,4 +301,5 @@ footer {
 #services {
     text-align: center;
     padding: 40px 5%;
+
 }
