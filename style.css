@@ -303,3 +303,10 @@ footer {
     padding: 40px 5%;
 
 }
+/* --- FIX FOR MOBILE BACKGROUND ZOOM --- */
+@media (max-width: 768px) {
+    header {
+        height: 60vh; /* Reduces height from 85% to 60% on phones */
+        background-position: center; /* Ensures the middle of the image is seen */
+    }
+}
